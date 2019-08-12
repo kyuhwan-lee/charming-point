@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Kyuhwan's Charming point</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -13,7 +13,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-
+<script>
+    function btn_click() {
+        location.reload();
+    }
+</script>
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -24,9 +28,9 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
-            <li>
+            <!--li>
                 <a href="#about">About</a>
-            </li>
+            </li-->
             <li>
                 <a href="#experience">Experience</a>
             </li>
@@ -40,6 +44,12 @@
                 <a href="#skills">Skills</a>
             </li>
             <li>
+                <a href="#publications">Publications</a>
+            </li>
+            <li>
+                <a href="#certificates">Certificates</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -48,9 +58,10 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
+            <h1>Kyuhwan Lee</h1>
             <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <!--a href="resume.pdf" download="resume_kyuhwan.pdf" class="btn-rounded-white">Download Resume</a-->
+            <!--a onclick="btn_click();" class="btn-rounded-white">To see in Korean</a-->
         </div>
         <!-- End #lead-content -->
 
@@ -65,7 +76,7 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+    <!--div id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -73,41 +84,21 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        
                     </p>
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="Feb. 2016 – Present">
+                <h3>TmaxSoft</h3>
+                <h4>Software Engineer</h4>
+                <a href="https://kr.tmaxsoft.com/main.do">Go to homepage</a>
             </div>
         </div>
     </div>
@@ -116,32 +107,15 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Hanyang University (Seoul)</h3>
+            <span class="education-date">Mar. 2014 - Feb. 2016</span>
+            <h4>Master's degree, Dept. of Computer and Software</h4>
         </div>
-        <!-- End .education-block -->
-
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Hanyang University (Seoul)</h3>
+            <span class="education-date">Mar. 2009 - Feb. 2014</span>
+            <h4>Bachelor's degree, Dept. of Computer Science</h4>
         </div>
-        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
@@ -151,93 +125,147 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/prozone.png" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                        <h3>Cloud management system</h3>
+                        <h4>May 2018 - Present</h4>
+                        <p>• Goals: (1) collects host/container/vm resources metrics and provides as a meaningful data, (2) generates events used to auto-scale containers/vms based on collected data</p>
+                        <p>• Responsibility: Server development, maintenance</p>
+                        <p>• Skills: Java8, RDBMS (<a href="https://www.tmaxdata.com/product/productView.do?prod_cd=tibero&detail_gubun=prod_main">Tibero6</a>), WAS (<a href="https://kr.tmaxsoft.com/product/productView.do?prod_cd=jeus&detail_gubun=prod_main">JEUS8</a>), <a href="https://kr.tmaxsoft.com/product/productView.do?prod_cd=proobject&detail_gubun=prod_main">ProObject7</a> (TmaxSoft web application framework)</p>
+                        <a href="http://www.tmaxos.com/#!/product-introduce/proZone">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/prozone.png" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                        <h3>Event management system</h3>
+                        <h4>Oct. 2017 - May 2018</h4>
+                        <p>• Goals: (1) integrates events generated by the components of TmaxCloud, (2) notifies users of authorized events in real time, (3) executes registered operations automatically</p>
+                        <p>• Responsibility: Server development, maintenance</p>
+                        <p>• Skills: Java8, RDBMS (<a href="https://www.tmaxdata.com/product/productView.do?prod_cd=tibero&detail_gubun=prod_main">Tibero6</a>), WAS (<a href="https://kr.tmaxsoft.com/product/productView.do?prod_cd=jeus&detail_gubun=prod_main">JEUS8</a>), JMS, <a href="https://kr.tmaxsoft.com/product/productView.do?prod_cd=proobject&detail_gubun=prod_main">ProObject7</a> (TmaxSoft web application framework)</p>
+                        <a href="http://www.tmaxos.com/#!/product-introduce/proZone">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sysmaster5.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Monitoring system for middlewares (WAS, Web server, DB, ...)</h3>
+                        <h4>Feb. 2016 - Oct. 2017</h4>
+                        <p>• Goals: collects middleware resources metrics and provides as a meaningful data (i.e., e2e transcation data)</p>
+                        <p>• Responsibility: Server maintenance, SQL optimization</p>
+                        <p>• Skills: Java5, RDBMS (Oracle 9g-12c, Tibero5), WAS (JEUS6), Struts2</p>
+                        <a href="https://kr.tmaxsoft.com/product/productView.do?prod_cd=sysmaster&detail_gubun=prod_main">View Project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
+
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>SQL</li>
+            <li>Docker</li>
+            <li>Linux</li>
+            <li>Jenkins</li>
+            <li>Maven</li>
+            <li>Git</li>
+            <li>Nexus</li>
         </ul>
     </div>
-    <!-- End #skills -->
+
+    <div id="experienced-skills">
+        <h2 class="heading">Experienced Skills</h2>
+        <ul>
+            <li>Android</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Struts</li>
+        </ul>
+    </div>
+    <!-- End #skills-->
+
+    
+
+    <div id="publications" class="background-alt">
+        <h2 class="heading">Publications</h2>
+        <div class="publications-block">
+            <h3>Efficient processing of large-scale sparse matrix-matrix multiplications on a single machine</h3>
+            <span class="publications-date">Oct. 2017, IEEE SMC</span>
+            <h4>Yong-Yeon Jo, Kyuhwan Lee, Myung-Hwan Jang, Sang-Wook Kim, Eunjee Song</h4>
+            <p>
+                This paper addresses how to perform two sparse matrices multiplication (SpGEMM) efficiently on a single-machine-based graph engine. We formulate the cost models for the three matrix product types (i.e., inner products, outer products, and row-row products) by reflecting their characteristics and propose memory allocation schemes.
+            </p>
+            <a href="https://ieeexplore.ieee.org/document/8122896">see publication</a>
+        </div>
+        <div class="publications-block">
+            <h3>Analysis on Block I/O Trace Replayers</h3>
+            <span class="publications-date">June 2015, KCC</span>
+            <h4>Kyuhwan Lee, Yong-Yeon Jo, Sang-Wook Kim</h4>
+            <p>
+                This paper analyzes the characteristics of the block I/O trace replayer used to evaluate the performance of SSD and verifies that the application can be replayed as if it were actually executed.
+            </p>
+            <a href="http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06394507">see publication</a>
+        </div>
+        
+    </div>
+    <!-- End #publications -->
+
+    <div id="certificates">
+        <h2 class="heading">Certificates</h2>
+        <div class="certificates-block">
+            <h3>Engineer Information Processing</h3>
+            <span class="certificates-date">May 2013, Human Resources Development Service of Korea</span>
+            <h4></h4>
+            <p>
+                A license for software development. <br>
+                The test verifies the advanced ability to perform tasks such as planning, analysis, design, implementation, and testing.
+            </p>
+        </div>
+        <div class="certificates-block">
+            <h3>Industrial Engineer Information Processing</h3>
+            <span class="certificates-date">Sept. 2011, Human Resources Development Service of Korea</span>
+            <h4></h4>
+            <p>
+                A license for software development. <br>
+                The test verifies the ability to perform tasks such as planning, analysis, design, implementation, and testing.
+            </p>
+        </div>
+        
+    </div>
+    <!-- End #certificates -->
 
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/hwan9024@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
     </div>
-    <!-- End #contact -->
+     <!--End #contact -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2019 Kyuhwan Lee
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -245,32 +273,13 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

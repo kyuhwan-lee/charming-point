@@ -624,7 +624,7 @@ footer {
 
 .project {
 	position: relative;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto 30px auto;
 	overflow: hidden;
 	background: #fff;
@@ -641,13 +641,21 @@ footer {
 	transform: translateY(-50%);
 	margin-left: 300px;
 	padding: 15px;
-	text-align: left
+	text-align: left;
+	min-height: 250px
 }
 
 .project-info h3 {
 	font-size: 1.5em;
 	font-weight: 300;
 	color: #374054;
+	margin: 0 0 15px 0
+}
+
+.project-info h4 {
+	font-size: 1.0em;
+	font-weight: 300;
+	color: #7e8890;
 	margin: 0 0 15px 0
 }
 
@@ -686,6 +694,34 @@ footer {
 }
 
 #skills li {
+	display: inline-block;
+	margin: 7px;
+	padding: 5px 10px;
+	color: #374054;
+	background: #e4e4ea;
+	list-style: none;
+	cursor: default;
+	font-size: 1.2em
+}
+
+#experienced-skills {
+	padding: 50px 15px;
+	text-align: center
+}
+
+#experienced-skills h2 {
+	color: #374054;
+	margin-bottom: 50px
+}
+
+#experienced-skills ul {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 800px
+}
+
+#experienced-skills li {
 	display: inline-block;
 	margin: 7px;
 	padding: 5px 10px;
