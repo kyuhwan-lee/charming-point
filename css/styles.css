@@ -613,6 +613,51 @@ video
 	font-size: 0.9em
 }
 
+#patents {
+	padding: 50px 15px 20px 15px;
+	border-bottom: 1px solid #dcd9d9;
+	text-align: center
+}
+
+#patents h2 {
+	color: #374054;
+	margin-bottom: 50px
+}
+
+.patents-block {
+	max-width: 800px;
+	margin: 0 auto 30px auto;
+	padding: 15px;
+	border: 1px solid #dcd9d9;
+	background: #fff;
+	text-align: left
+}
+
+.patents-block h3 {
+	font-weight: 500;
+	float: left;
+	margin: 0;
+	color: #374054
+}
+
+.patents-block span {
+	color: #74808a;
+	float: right
+}
+
+.patents-block h4 {
+	color: #74808a;
+	clear: both;
+	font-weight: 500;
+	margin: 0 0 15px 0
+}
+
+.patents-block p {
+	margin: 0;
+	color: #74808a;
+	font-size: 0.9em
+}
+
 #certificates {
 	padding: 50px 15px 20px 15px;
 	border-bottom: 1px solid #dcd9d9;
@@ -629,6 +674,7 @@ video
 	margin: 0 auto 30px auto;
 	padding: 15px;
 	border: 1px solid #dcd9d9;
+	background: #fff;
 	text-align: left
 }
 
